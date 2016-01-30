@@ -1,0 +1,857 @@
+﻿<?xml version="1.0"?>
+<doc>
+<assembly>
+<name>
+CRS
+</name>
+</assembly>
+<members>
+<member name="P:CRS.LogOut.Logged_In">
+	<summary>
+ Logged In - maintained in Session state
+ </summary>
+	<value></value>
+	<returns></returns>
+	<remarks></remarks>
+</member><member name="P:CRS.LogOut.AttorneyID">
+	<summary>
+ Attorney ID - maintained in Session state
+ </summary>
+	<value></value>
+	<returns></returns>
+	<remarks></remarks>
+</member><member name="P:CRS.LogOut.LawFirmID">
+	<summary>
+ Law Firm ID - maintained in Session state
+ </summary>
+	<value></value>
+	<returns></returns>
+	<remarks></remarks>
+</member><member name="P:CRS.LogOut.StateID">
+	<summary>
+ State ID - maintained in Session state
+ </summary>
+	<value></value>
+	<returns></returns>
+	<remarks></remarks>
+</member><member name="F:CRS.reporting.scrManager">
+	<summary>
+scrManager control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:CRS.reporting.pnlUpdate">
+	<summary>
+pnlUpdate control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:CRS.reporting.pnl_Welcome">
+	<summary>
+pnl_Welcome control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:CRS.reporting.pnl_Referral_Feedback">
+	<summary>
+pnl_Referral_Feedback control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:CRS.reporting.lblReferralFeedbackFirm">
+	<summary>
+lblReferralFeedbackFirm control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:CRS.reporting.lblReferralFeedbackAttorney">
+	<summary>
+lblReferralFeedbackAttorney control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:CRS.reporting.lblCase">
+	<summary>
+lblCase control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:CRS.reporting.lblCaseInformation">
+	<summary>
+lblCaseInformation control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:CRS.reporting.rdoAre">
+	<summary>
+rdoAre control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:CRS.reporting.rdoAreNot">
+	<summary>
+rdoAreNot control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:CRS.reporting.txtReason">
+	<summary>
+txtReason control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:CRS.reporting.btnReferralFeedbackWellTakeThisCase">
+	<summary>
+btnReferralFeedbackWellTakeThisCase control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:CRS.reporting.btnReferralFeedbackGiveThisCaseToSomeoneElse">
+	<summary>
+btnReferralFeedbackGiveThisCaseToSomeoneElse control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:CRS.reporting.pnl_Case_Reporting">
+	<summary>
+pnl_Case_Reporting control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:CRS.reporting.lblCaseReportingFirm">
+	<summary>
+lblCaseReportingFirm control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:CRS.reporting.lblCaseReportingAttorney">
+	<summary>
+lblCaseReportingAttorney control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:CRS.reporting.lblCaseReportingClientName">
+	<summary>
+lblCaseReportingClientName control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:CRS.reporting.lblCaseReportingClientID">
+	<summary>
+lblCaseReportingClientID control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:CRS.reporting.lblCaseReportingMainCategory">
+	<summary>
+lblCaseReportingMainCategory control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:CRS.reporting.lblCaseReportingTypeOfCase">
+	<summary>
+lblCaseReportingTypeOfCase control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:CRS.reporting.lblCaseReportingComments">
+	<summary>
+lblCaseReportingComments control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:CRS.reporting.txtCaseReportingComments">
+	<summary>
+txtCaseReportingComments control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:CRS.reporting.btnCaseReportingComments">
+	<summary>
+btnCaseReportingComments control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:CRS.reporting.lblCaseReportingCommentsSaved">
+	<summary>
+lblCaseReportingCommentsSaved control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="P:CRS.CRS.Client">
+	<summary>
+ Client object - maintained in Session state
+ </summary>
+	<value></value>
+	<returns></returns>
+	<remarks></remarks>
+</member><member name="F:CRS.TestFloatingMenu.lblFloatingMenuText">
+	<summary>
+lblFloatingMenuText control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="P:CRS.types_of_cases.Clients_Case_Reporting">
+	<summary>
+ Clients Case Reporting object - maintained in Session state
+ </summary>
+	<value></value>
+	<returns></returns>
+	<remarks></remarks>
+</member><member name="P:CRS.types_of_cases.Logged_In">
+	<summary>
+ Logged In - maintained in Session state
+ </summary>
+	<value></value>
+	<returns></returns>
+	<remarks></remarks>
+</member><member name="P:CRS.types_of_cases.AttorneyID">
+	<summary>
+ Attorney ID - maintained in Session state
+ </summary>
+	<value></value>
+	<returns></returns>
+	<remarks></remarks>
+</member><member name="P:CRS.types_of_cases.LawFirmID">
+	<summary>
+ Law Firm ID - maintained in Session state
+ </summary>
+	<value></value>
+	<returns></returns>
+	<remarks></remarks>
+</member><member name="P:CRS.NoSideNavigation.Client">
+	<summary>
+ Client object - maintained in Session state
+ </summary>
+	<value></value>
+	<returns></returns>
+	<remarks></remarks>
+</member><member name="P:CRS.NoSideNavigation.LawFirmID">
+	<summary>
+ Law Firm ID - maintained in Session state
+ </summary>
+	<value></value>
+	<returns></returns>
+	<remarks></remarks>
+</member><member name="P:CRS.NoSideNavigation.StateID">
+	<summary>
+ State ID - maintained in Session state
+ </summary>
+	<value></value>
+	<returns></returns>
+	<remarks></remarks>
+</member><member name="P:CRS._Default.Clients_Case_Reporting">
+	<summary>
+ Clients Case Reporting object - maintained in Session state
+ </summary>
+	<value></value>
+	<returns></returns>
+	<remarks></remarks>
+</member><member name="P:CRS._Default.Logged_In">
+	<summary>
+ Logged In - maintained in Session state
+ </summary>
+	<value></value>
+	<returns></returns>
+	<remarks></remarks>
+</member><member name="P:CRS._Default.AttorneyID">
+	<summary>
+ Attorney ID - maintained in Session state
+ </summary>
+	<value></value>
+	<returns></returns>
+	<remarks></remarks>
+</member><member name="P:CRS._Default.LawFirmID">
+	<summary>
+ Law Firm ID - maintained in Session state
+ </summary>
+	<value></value>
+	<returns></returns>
+	<remarks></remarks>
+</member><member name="P:CRS._Default.StateID">
+	<summary>
+ State ID - maintained in Session state
+ </summary>
+	<value></value>
+	<returns></returns>
+	<remarks></remarks>
+</member><member name="M:CRS._Default.Page_Load(System.Object,System.EventArgs)">
+	<summary>
+ Page load handler
+ </summary>
+	<param name="sender"></param>
+	<param name="e"></param>
+	<remarks></remarks>
+</member><member name="P:CRS.cities.Clients_Case_Reporting">
+	<summary>
+ Clients Case Reporting object - maintained in Session state
+ </summary>
+	<value></value>
+	<returns></returns>
+	<remarks></remarks>
+</member><member name="P:CRS.cities.Logged_In">
+	<summary>
+ Logged In - maintained in Session state
+ </summary>
+	<value></value>
+	<returns></returns>
+	<remarks></remarks>
+</member><member name="P:CRS.cities.AttorneyID">
+	<summary>
+ Attorney ID - maintained in Session state
+ </summary>
+	<value></value>
+	<returns></returns>
+	<remarks></remarks>
+</member><member name="P:CRS.cities.LawFirmID">
+	<summary>
+ Law Firm ID - maintained in Session state
+ </summary>
+	<value></value>
+	<returns></returns>
+	<remarks></remarks>
+</member><member name="P:CRS.cities.StateID">
+	<summary>
+ State ID - maintained in Session state
+ </summary>
+	<value></value>
+	<returns></returns>
+	<remarks></remarks>
+</member><member name="F:CRS._Default.lblPageTitle">
+	<summary>
+lblPageTitle control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:CRS.cities.Panel1">
+	<summary>
+Panel1 control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:CRS.cities.btnSave">
+	<summary>
+btnSave control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:CRS.cities.tblPreferredCities">
+	<summary>
+tblPreferredCities control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:CRS.cities.lblSaveComplete">
+	<summary>
+lblSaveComplete control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:CRS.types_of_cases.Panel1">
+	<summary>
+Panel1 control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:CRS.types_of_cases.btnSave">
+	<summary>
+btnSave control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:CRS.types_of_cases.tblTypesOfCases">
+	<summary>
+tblTypesOfCases control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:CRS.types_of_cases.lblSaveComplete">
+	<summary>
+lblSaveComplete control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="P:CRS.Login.Referring_Attorney">
+	<summary>
+ Referring Attorney object - maintained in Session state
+ </summary>
+	<value></value>
+	<returns></returns>
+	<remarks></remarks>
+</member><member name="P:CRS.Login.Clients_Case_Reporting">
+	<summary>
+ Clients Case Reporting object - maintained in Session state
+ </summary>
+	<value></value>
+	<returns></returns>
+	<remarks></remarks>
+</member><member name="P:CRS.Login.Client">
+	<summary>
+ Client object - maintained in Session state
+ </summary>
+	<value></value>
+	<returns></returns>
+	<remarks></remarks>
+</member><member name="P:CRS.Login.Logged_In">
+	<summary>
+ Logged In - maintained in Session state
+ </summary>
+	<value></value>
+	<returns></returns>
+	<remarks></remarks>
+</member><member name="P:CRS.Login.AttorneyID">
+	<summary>
+ Attorney ID - maintained in Session state
+ </summary>
+	<value></value>
+	<returns></returns>
+	<remarks></remarks>
+</member><member name="P:CRS.Login.LawFirmID">
+	<summary>
+ Law Firm ID - maintained in Session state
+ </summary>
+	<value></value>
+	<returns></returns>
+	<remarks></remarks>
+</member><member name="P:CRS.Login.StateID">
+	<summary>
+ State ID - maintained in Session state
+ </summary>
+	<value></value>
+	<returns></returns>
+	<remarks></remarks>
+</member><member name="M:CRS.Login.Page_Load(System.Object,System.EventArgs)">
+	<summary>
+ Handles the form load event event
+ </summary>
+	<param name="sender"></param>
+	<param name="e"></param>
+	<remarks></remarks>
+</member><member name="M:CRS.Login.btn_CRS_Login_Click(System.Object,System.EventArgs)">
+	<summary>
+ Handles the login click event
+ </summary>
+	<param name="sender"></param>
+	<param name="e"></param>
+	<remarks></remarks>
+</member><member name="F:CRS.Site1.Head1">
+	<summary>
+Head1 control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:CRS.Site1.head">
+	<summary>
+head control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:CRS.Site1.form1">
+	<summary>
+form1 control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:CRS.Site1.lblCRS">
+	<summary>
+lblCRS control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:CRS.Site1.lbl_Law_Firms_Full_Name">
+	<summary>
+lbl_Law_Firms_Full_Name control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:CRS.Site1.lbl_Attorneys_Full_Name">
+	<summary>
+lbl_Attorneys_Full_Name control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:CRS.Site1.ContentPlaceHolder1">
+	<summary>
+ContentPlaceHolder1 control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="T:CRS.reporting.PanelState">
+	<summary>
+ Used to select the panel to be visible
+ </summary>
+	<remarks></remarks>
+</member><member name="P:CRS.reporting.Clients_Case_Reporting">
+	<summary>
+ Clients Case Reporting object - maintained in Session state
+ </summary>
+	<value></value>
+	<returns></returns>
+	<remarks></remarks>
+</member><member name="P:CRS.reporting.Logged_In">
+	<summary>
+ Logged In - maintained in Session state
+ </summary>
+	<value></value>
+	<returns></returns>
+	<remarks></remarks>
+</member><member name="M:CRS.reporting.Page_Load(System.Object,System.EventArgs)">
+	<summary>
+ Page load handler
+ </summary>
+	<param name="sender"></param>
+	<param name="e"></param>
+	<remarks></remarks>
+</member><member name="F:CRS.CRS.Head1">
+	<summary>
+Head1 control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:CRS.CRS.head">
+	<summary>
+head control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:CRS.CRS.form1">
+	<summary>
+form1 control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:CRS.CRS.lblCRS">
+	<summary>
+lblCRS control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:CRS.CRS.lbl_Law_Firms_Full_Name">
+	<summary>
+lbl_Law_Firms_Full_Name control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:CRS.CRS.lbl_Attorneys_Full_Name">
+	<summary>
+lbl_Attorneys_Full_Name control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:CRS.CRS.lblPageTitle">
+	<summary>
+lblPageTitle control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:CRS.CRS.ContentPlaceHolder1">
+	<summary>
+ContentPlaceHolder1 control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="P:CRS.My.MyWebExtension.Application">
+	<summary>
+ Returns information about the current application.
+ </summary>
+</member><member name="P:CRS.My.MyWebExtension.Computer">
+	<summary>
+ Returns information about the host computer.
+ </summary>
+</member><member name="P:CRS.My.MyWebExtension.User">
+	<summary>
+ Returns information for the current Web user.
+ </summary>
+</member><member name="P:CRS.My.MyWebExtension.Request">
+	<summary>
+ Returns Request object.
+ </summary>
+</member><member name="P:CRS.My.MyWebExtension.Response">
+	<summary>
+ Returns Response object.
+ </summary>
+</member><member name="P:CRS.My.MyWebExtension.Log">
+	<summary>
+ Returns the Asp log object.
+ </summary>
+</member><member name="P:CRS.My.MyWebExtension.WebServices">
+	<summary>
+ Provides access to WebServices added to this project.
+ </summary>
+</member><member name="T:CRS.My.MyWebExtension">
+	<summary>
+ Module used to define the properties that are available in the My Namespace for Web projects.
+ </summary>
+	<remarks></remarks>
+</member><member name="F:CRS.NoSideNavigation.head">
+	<summary>
+head control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:CRS.NoSideNavigation.form1">
+	<summary>
+form1 control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:CRS.NoSideNavigation.lblCRS">
+	<summary>
+lblCRS control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:CRS.NoSideNavigation.lbl_Law_Firms_Full_Name">
+	<summary>
+lbl_Law_Firms_Full_Name control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:CRS.NoSideNavigation.lbl_Attorneys_Full_Name">
+	<summary>
+lbl_Attorneys_Full_Name control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:CRS.NoSideNavigation.ContentPlaceHolder1">
+	<summary>
+ContentPlaceHolder1 control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:CRS.states.Panel1">
+	<summary>
+Panel1 control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:CRS.states.btnSave">
+	<summary>
+btnSave control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:CRS.states.tblStatesOfAdmission">
+	<summary>
+tblStatesOfAdmission control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:CRS.states.lblSaveComplete">
+	<summary>
+lblSaveComplete control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:CRS.Login.lbl_CRS_Login_Title">
+	<summary>
+lbl_CRS_Login_Title control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:CRS.Login.lbl_CRS_Login_Name">
+	<summary>
+lbl_CRS_Login_Name control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:CRS.Login.txt_CRS_Login_Name">
+	<summary>
+txt_CRS_Login_Name control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:CRS.Login.lbl_CRS_Login_Password">
+	<summary>
+lbl_CRS_Login_Password control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:CRS.Login.txt_CRS_Login_Password">
+	<summary>
+txt_CRS_Login_Password control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:CRS.Login.btn_CRS_Login">
+	<summary>
+btn_CRS_Login control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:CRS.Login.lbl_CRS_Status">
+	<summary>
+lbl_CRS_Status control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="P:CRS.states.Clients_Case_Reporting">
+	<summary>
+ Clients Case Reporting object - maintained in Session state
+ </summary>
+	<value></value>
+	<returns></returns>
+	<remarks></remarks>
+</member><member name="P:CRS.states.Logged_In">
+	<summary>
+ Logged In - maintained in Session state
+ </summary>
+	<value></value>
+	<returns></returns>
+	<remarks></remarks>
+</member><member name="P:CRS.states.AttorneyID">
+	<summary>
+ Attorney ID - maintained in Session state
+ </summary>
+	<value></value>
+	<returns></returns>
+	<remarks></remarks>
+</member><member name="P:CRS.states.LawFirmID">
+	<summary>
+ Law Firm ID - maintained in Session state
+ </summary>
+	<value></value>
+	<returns></returns>
+	<remarks></remarks>
+</member><member name="P:CRS.states.StateID">
+	<summary>
+ State ID - maintained in Session state
+ </summary>
+	<value></value>
+	<returns></returns>
+	<remarks></remarks>
+</member>
+</members>
+</doc>

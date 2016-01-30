@@ -1,0 +1,40 @@
+C:\Projects\CCN\Case_Reporting_System\ARS_Common\bin\Debug\CRS_Common.dll
+C:\Projects\CCN\Case_Reporting_System\ARS_Common\bin\Debug\CRS_Common.pdb
+C:\Projects\CCN\Case_Reporting_System\ARS_Common\bin\Debug\CRS_Common.xml
+C:\Projects\CCN\Case_Reporting_System\ARS_Common\obj\Debug\ResolveAssemblyReference.cache
+C:\Projects\CCN\Case_Reporting_System\ARS_Common\obj\Debug\CRS_Common.Resources.resources
+C:\Projects\CCN\Case_Reporting_System\ARS_Common\obj\Debug\GenerateResource.read.1.tlog
+C:\Projects\CCN\Case_Reporting_System\ARS_Common\obj\Debug\GenerateResource.write.1.tlog
+C:\Projects\CCN\Case_Reporting_System\ARS_Common\obj\Debug\CRS_Common.dll
+C:\Projects\CCN\Case_Reporting_System\ARS_Common\obj\Debug\CRS_Common.xml
+C:\Projects\CCN\Case_Reporting_System\ARS_Common\obj\Debug\CRS_Common.pdb
+C:\Development\Case Reporting\ARS_Common\bin\Debug\CRS_Common.dll
+C:\Development\Case Reporting\ARS_Common\bin\Debug\CRS_Common.pdb
+C:\Development\Case Reporting\ARS_Common\bin\Debug\CRS_Common.xml
+C:\Development\Case Reporting\ARS_Common\obj\Debug\ResolveAssemblyReference.cache
+C:\Development\Case Reporting\ARS_Common\obj\Debug\CRS_Common.Resources.resources
+C:\Development\Case Reporting\ARS_Common\obj\Debug\GenerateResource.read.1.tlog
+C:\Development\Case Reporting\ARS_Common\obj\Debug\GenerateResource.write.1.tlog
+C:\Development\Case Reporting\ARS_Common\obj\Debug\CRS_Common.dll
+C:\Development\Case Reporting\ARS_Common\obj\Debug\CRS_Common.xml
+C:\Development\Case Reporting\ARS_Common\obj\Debug\CRS_Common.pdb
+C:\Development\Case Reporting System\ARS_Common\bin\Debug\CRS_Common.dll
+C:\Development\Case Reporting System\ARS_Common\bin\Debug\CRS_Common.pdb
+C:\Development\Case Reporting System\ARS_Common\bin\Debug\CRS_Common.xml
+C:\Development\Case Reporting System\ARS_Common\obj\Debug\ResolveAssemblyReference.cache
+C:\Development\Case Reporting System\ARS_Common\obj\Debug\CRS_Common.Resources.resources
+C:\Development\Case Reporting System\ARS_Common\obj\Debug\GenerateResource.read.1.tlog
+C:\Development\Case Reporting System\ARS_Common\obj\Debug\GenerateResource.write.1.tlog
+C:\Development\Case Reporting System\ARS_Common\obj\Debug\CRS_Common.dll
+C:\Development\Case Reporting System\ARS_Common\obj\Debug\CRS_Common.xml
+C:\Development\Case Reporting System\ARS_Common\obj\Debug\CRS_Common.pdb
+C:\Development\Case Reporting_old\ARS_Common\bin\Debug\CRS_Common.dll
+C:\Development\Case Reporting_old\ARS_Common\bin\Debug\CRS_Common.pdb
+C:\Development\Case Reporting_old\ARS_Common\bin\Debug\CRS_Common.xml
+C:\Development\Case Reporting_old\ARS_Common\obj\Debug\ResolveAssemblyReference.cache
+C:\Development\Case Reporting_old\ARS_Common\obj\Debug\CRS_Common.Resources.resources
+C:\Development\Case Reporting_old\ARS_Common\obj\Debug\GenerateResource.read.1.tlog
+C:\Development\Case Reporting_old\ARS_Common\obj\Debug\GenerateResource.write.1.tlog
+C:\Development\Case Reporting_old\ARS_Common\obj\Debug\CRS_Common.dll
+C:\Development\Case Reporting_old\ARS_Common\obj\Debug\CRS_Common.xml
+C:\Development\Case Reporting_old\ARS_Common\obj\Debug\CRS_Common.pdb

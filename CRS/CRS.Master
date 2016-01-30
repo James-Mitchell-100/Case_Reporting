@@ -1,0 +1,73 @@
+﻿<%@ Master Language="VB" AutoEventWireup="false" CodeBehind="CRS.master.vb" Inherits="CRS.CRS" %>
+
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head id="Head1" runat="server">
+    <title></title>
+    <link href="Styles/Site.css" rel="stylesheet" type="text/css" />
+    <asp:ContentPlaceHolder ID="head" runat="server">
+    </asp:ContentPlaceHolder>
+</head>
+<body style="height: 130px">
+    <form id="form1" runat="server">
+<!--
+
+        Header at Top
+
+-->
+    <div style="font-family: Trebuchet MS, Helvetica, Arial, sans-serif; width: 100%;
+        margin: 0px; padding: 0px;">
+        <div style="font-size: large; font-weight: normal; width: 100%;">
+            <table width="100%" bgcolor="#A0BBC9" cellpadding="0" cellspacing="0">
+                <tr>
+                    <td width="25%" align="center">
+                        <div style="margin-left: 10px; margin-top: 10px; height: 130px; vertical-align: middle;">
+                            
+                            <div class="H3_MP_Header_Our_Law_Firm">Powers &amp; Merchant, PLLC<br /></div>
+                            <div class="H3_MP_Header_Name_of_System"><asp:Label ID="lblCRS" runat="server" Text="Case Reporting System" /></div>
+                            <div class="H3_MP_Header_Receiving_Law_Firm"><asp:Label ID="lbl_Law_Firms_Full_Name" runat="server" Text="" /><br /></div>
+                            <div class="H3_MP_Header_Receiving_Attorney"><asp:Label ID="lbl_Attorneys_Full_Name" runat="server" Text="" /><br /><br /></div>
+                        </div>
+                    </td>
+                </tr>
+            </table>
+        </div>
+    </div>
+<br /><div class="Page_Title_States"><asp:Label ID="lblPageTitle" runat="server" CssClass="H3_Page_Title" /></div>
+<!--
+
+        Left Navigation Pane
+
+-->
+
+<br />
+<table><tr valign="top"><td style="width:240px">
+<div class="Navigation_Left">
+    <br />
+<a href="../employees.aspx?PageTitle=Employees" title="_" target="_self">Employees</a><br />
+<a href="../states.aspx?PageTitle=States of Admission" title="_" target="_self">States</a><br />
+<a href="../cities.aspx?PageTitle=Cities" title="_" target="_self">Cities</a><br />
+<a href="../employee-referral-groups.aspx?PageTitle=Employee Referral Groups" title="_" target="_self">Employee Referral Groups</a><br />
+<a href="../referral-contact-lists.aspx?PageTitle=Referral Contact Lists" title="_" target="_self">Referral Contact Lists</a><br />
+<a href="../types-of-cases.aspx?PageTitle=Types of Cases" title="_" target="_self">Types of Cases</a><br /><br />
+
+<a href="../referral-feedback.aspx?PageTitle=Referral Feedback" title="_" target="_self">Referral Feedback</a><br />
+<a href="../case-status-reporting.aspx?PageTitle=Case Status Reporting" title="_" target="_self">Case Status Reporting</a><br /><br />
+<a href="../logout.aspx" title="_" target="_self">Log Out</a>
+
+</div>
+</td><td valign="top">
+    <div>
+            <asp:ContentPlaceHolder ID="ContentPlaceHolder1" runat="server">
+            </asp:ContentPlaceHolder>
+        </div>
+</td></tr></table>
+
+
+
+
+
+
+    </form>
+</body>
+</html>

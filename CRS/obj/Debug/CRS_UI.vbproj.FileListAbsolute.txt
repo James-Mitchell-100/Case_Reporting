@@ -1,0 +1,64 @@
+C:\Projects\CCN\Case_Reporting_System\CRS\bin\CRS.dll
+C:\Projects\CCN\Case_Reporting_System\CRS\bin\CRS.pdb
+C:\Projects\CCN\Case_Reporting_System\CRS\bin\CRS.xml
+C:\Projects\CCN\Case_Reporting_System\CRS\bin\CRS_BLL.dll
+C:\Projects\CCN\Case_Reporting_System\CRS\bin\CRS_Common.dll
+C:\Projects\CCN\Case_Reporting_System\CRS\bin\CRS_DLL.dll
+C:\Projects\CCN\Case_Reporting_System\CRS\bin\CRS_Common.pdb
+C:\Projects\CCN\Case_Reporting_System\CRS\bin\CRS_Common.xml
+C:\Projects\CCN\Case_Reporting_System\CRS\bin\CRS_BLL.pdb
+C:\Projects\CCN\Case_Reporting_System\CRS\bin\CRS_BLL.xml
+C:\Projects\CCN\Case_Reporting_System\CRS\bin\CRS_DLL.pdb
+C:\Projects\CCN\Case_Reporting_System\CRS\bin\CRS_DLL.xml
+C:\Projects\CCN\Case_Reporting_System\CRS\obj\Debug\ResolveAssemblyReference.cache
+C:\Projects\CCN\Case_Reporting_System\CRS\obj\Debug\CRS.Resources.resources
+C:\Projects\CCN\Case_Reporting_System\CRS\obj\Debug\GenerateResource.read.1.tlog
+C:\Projects\CCN\Case_Reporting_System\CRS\obj\Debug\GenerateResource.write.1.tlog
+C:\Projects\CCN\Case_Reporting_System\CRS\obj\Debug\CRS.dll
+C:\Projects\CCN\Case_Reporting_System\CRS\obj\Debug\CRS.xml
+C:\Projects\CCN\Case_Reporting_System\CRS\obj\Debug\CRS.pdb
+C:\Development\Case Reporting\CRS\bin\CRS.dll
+C:\Development\Case Reporting\CRS\bin\CRS.pdb
+C:\Development\Case Reporting\CRS\bin\CRS.xml
+C:\Development\Case Reporting\CRS\bin\CRS_BLL.dll
+C:\Development\Case Reporting\CRS\bin\CRS_Common.dll
+C:\Development\Case Reporting\CRS\bin\CRS_DLL.dll
+C:\Development\Case Reporting\CRS\bin\CRS_Common.pdb
+C:\Development\Case Reporting\CRS\bin\CRS_Common.xml
+C:\Development\Case Reporting\CRS\bin\CRS_BLL.pdb
+C:\Development\Case Reporting\CRS\bin\CRS_BLL.xml
+C:\Development\Case Reporting\CRS\bin\CRS_DLL.pdb
+C:\Development\Case Reporting\CRS\bin\CRS_DLL.xml
+C:\Development\Case Reporting\CRS\obj\Debug\ResolveAssemblyReference.cache
+C:\Development\Case Reporting\CRS\obj\Debug\CRS.Resources.resources
+C:\Development\Case Reporting\CRS\obj\Debug\GenerateResource.read.1.tlog
+C:\Development\Case Reporting\CRS\obj\Debug\GenerateResource.write.1.tlog
+C:\Development\Case Reporting\CRS\obj\Debug\CRS.dll
+C:\Development\Case Reporting\CRS\obj\Debug\CRS.xml
+C:\Development\Case Reporting\CRS\obj\Debug\CRS.pdb
+C:\Development\Case Reporting System\CRS\obj\Debug\ResolveAssemblyReference.cache
+C:\Development\Case Reporting System\CRS\obj\Debug\CRS.Resources.resources
+C:\Development\Case Reporting System\CRS\obj\Debug\GenerateResource.read.1.tlog
+C:\Development\Case Reporting System\CRS\obj\Debug\GenerateResource.write.1.tlog
+C:\Development\Case Reporting System\CRS\obj\Debug\CRS.dll
+C:\Development\Case Reporting System\CRS\obj\Debug\CRS.xml
+C:\Development\Case Reporting System\CRS\obj\Debug\CRS.pdb
+C:\Development\Case Reporting_old\CRS\bin\CRS.dll
+C:\Development\Case Reporting_old\CRS\bin\CRS.pdb
+C:\Development\Case Reporting_old\CRS\bin\CRS.xml
+C:\Development\Case Reporting_old\CRS\bin\CRS_BLL.dll
+C:\Development\Case Reporting_old\CRS\bin\CRS_Common.dll
+C:\Development\Case Reporting_old\CRS\bin\CRS_DLL.dll
+C:\Development\Case Reporting_old\CRS\bin\CRS_Common.pdb
+C:\Development\Case Reporting_old\CRS\bin\CRS_Common.xml
+C:\Development\Case Reporting_old\CRS\bin\CRS_BLL.pdb
+C:\Development\Case Reporting_old\CRS\bin\CRS_BLL.xml
+C:\Development\Case Reporting_old\CRS\bin\CRS_DLL.pdb
+C:\Development\Case Reporting_old\CRS\bin\CRS_DLL.xml
+C:\Development\Case Reporting_old\CRS\obj\Debug\ResolveAssemblyReference.cache
+C:\Development\Case Reporting_old\CRS\obj\Debug\CRS.Resources.resources
+C:\Development\Case Reporting_old\CRS\obj\Debug\GenerateResource.read.1.tlog
+C:\Development\Case Reporting_old\CRS\obj\Debug\GenerateResource.write.1.tlog
+C:\Development\Case Reporting_old\CRS\obj\Debug\CRS.dll
+C:\Development\Case Reporting_old\CRS\obj\Debug\CRS.xml
+C:\Development\Case Reporting_old\CRS\obj\Debug\CRS.pdb

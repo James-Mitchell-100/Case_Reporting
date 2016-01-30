@@ -1,0 +1,46 @@
+C:\Projects\CCN\Case_Reporting_System\CRS_BLL\bin\Debug\CRS_BLL.dll
+C:\Projects\CCN\Case_Reporting_System\CRS_BLL\bin\Debug\CRS_BLL.pdb
+C:\Projects\CCN\Case_Reporting_System\CRS_BLL\bin\Debug\CRS_BLL.xml
+C:\Projects\CCN\Case_Reporting_System\CRS_BLL\bin\Debug\CRS_DLL.dll
+C:\Projects\CCN\Case_Reporting_System\CRS_BLL\bin\Debug\CRS_DLL.pdb
+C:\Projects\CCN\Case_Reporting_System\CRS_BLL\bin\Debug\CRS_DLL.xml
+C:\Projects\CCN\Case_Reporting_System\CRS_BLL\obj\Debug\ResolveAssemblyReference.cache
+C:\Projects\CCN\Case_Reporting_System\CRS_BLL\obj\Debug\CRS_BLL.Resources.resources
+C:\Projects\CCN\Case_Reporting_System\CRS_BLL\obj\Debug\GenerateResource.read.1.tlog
+C:\Projects\CCN\Case_Reporting_System\CRS_BLL\obj\Debug\GenerateResource.write.1.tlog
+C:\Projects\CCN\Case_Reporting_System\CRS_BLL\obj\Debug\CRS_BLL.dll
+C:\Projects\CCN\Case_Reporting_System\CRS_BLL\obj\Debug\CRS_BLL.xml
+C:\Projects\CCN\Case_Reporting_System\CRS_BLL\obj\Debug\CRS_BLL.pdb
+C:\Development\Case Reporting\CRS_BLL\bin\Debug\CRS_BLL.dll
+C:\Development\Case Reporting\CRS_BLL\bin\Debug\CRS_BLL.pdb
+C:\Development\Case Reporting\CRS_BLL\bin\Debug\CRS_BLL.xml
+C:\Development\Case Reporting\CRS_BLL\bin\Debug\CRS_DLL.dll
+C:\Development\Case Reporting\CRS_BLL\bin\Debug\CRS_DLL.pdb
+C:\Development\Case Reporting\CRS_BLL\bin\Debug\CRS_DLL.xml
+C:\Development\Case Reporting\CRS_BLL\obj\Debug\ResolveAssemblyReference.cache
+C:\Development\Case Reporting\CRS_BLL\obj\Debug\CRS_BLL.Resources.resources
+C:\Development\Case Reporting\CRS_BLL\obj\Debug\GenerateResource.read.1.tlog
+C:\Development\Case Reporting\CRS_BLL\obj\Debug\GenerateResource.write.1.tlog
+C:\Development\Case Reporting\CRS_BLL\obj\Debug\CRS_BLL.dll
+C:\Development\Case Reporting\CRS_BLL\obj\Debug\CRS_BLL.xml
+C:\Development\Case Reporting\CRS_BLL\obj\Debug\CRS_BLL.pdb
+C:\Development\Case Reporting System\CRS_BLL\obj\Debug\ResolveAssemblyReference.cache
+C:\Development\Case Reporting System\CRS_BLL\obj\Debug\CRS_BLL.Resources.resources
+C:\Development\Case Reporting System\CRS_BLL\obj\Debug\GenerateResource.read.1.tlog
+C:\Development\Case Reporting System\CRS_BLL\obj\Debug\GenerateResource.write.1.tlog
+C:\Development\Case Reporting System\CRS_BLL\obj\Debug\CRS_BLL.dll
+C:\Development\Case Reporting System\CRS_BLL\obj\Debug\CRS_BLL.xml
+C:\Development\Case Reporting System\CRS_BLL\obj\Debug\CRS_BLL.pdb
+C:\Development\Case Reporting_old\CRS_BLL\bin\Debug\CRS_BLL.dll
+C:\Development\Case Reporting_old\CRS_BLL\bin\Debug\CRS_BLL.pdb
+C:\Development\Case Reporting_old\CRS_BLL\bin\Debug\CRS_BLL.xml
+C:\Development\Case Reporting_old\CRS_BLL\bin\Debug\CRS_DLL.dll
+C:\Development\Case Reporting_old\CRS_BLL\bin\Debug\CRS_DLL.pdb
+C:\Development\Case Reporting_old\CRS_BLL\bin\Debug\CRS_DLL.xml
+C:\Development\Case Reporting_old\CRS_BLL\obj\Debug\ResolveAssemblyReference.cache
+C:\Development\Case Reporting_old\CRS_BLL\obj\Debug\CRS_BLL.Resources.resources
+C:\Development\Case Reporting_old\CRS_BLL\obj\Debug\GenerateResource.read.1.tlog
+C:\Development\Case Reporting_old\CRS_BLL\obj\Debug\GenerateResource.write.1.tlog
+C:\Development\Case Reporting_old\CRS_BLL\obj\Debug\CRS_BLL.dll
+C:\Development\Case Reporting_old\CRS_BLL\obj\Debug\CRS_BLL.xml
+C:\Development\Case Reporting_old\CRS_BLL\obj\Debug\CRS_BLL.pdb

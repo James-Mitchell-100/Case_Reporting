@@ -1,0 +1,123 @@
+﻿<?xml version="1.0"?>
+<doc>
+<assembly>
+<name>
+CRS_BLL
+</name>
+</assembly>
+<members>
+<member name="T:CRS_BLL.CaseReporting_Report_Column">
+	<summary>
+ Class to define a report column definition object
+ </summary>
+	<remarks></remarks>
+</member><member name="T:CRS_BLL.CaseReporting_Report_Definition">
+	<summary>
+ Class to define a report definition object
+ </summary>
+	<remarks></remarks>
+</member><member name="P:CRS_BLL.My.Resources.Resources.ResourceManager">
+	<summary>
+  Returns the cached ResourceManager instance used by this class.
+</summary>
+</member><member name="P:CRS_BLL.My.Resources.Resources.Culture">
+	<summary>
+  Overrides the current thread's CurrentUICulture property for all
+  resource lookups using this strongly typed resource class.
+</summary>
+</member><member name="T:CRS_BLL.My.Resources.Resources">
+	<summary>
+  A strongly-typed resource class, for looking up localized strings, etc.
+</summary>
+</member><member name="M:CRS_BLL.CaseReporting_Employee.Login(System.String,System.String)">
+	<summary>
+ This method attempts to retrieve the employee information based upon the user supplied values
+ </summary>
+	<param name="str_Login_Name">User supplied email address</param>
+	<param name="str_Login_Password">User supplied password</param>
+	<remarks>
+ This method attempts to retrieve a data table containing the employee information from the DLL.  If successful, the DLL will
+ return a data table containing the requested information.  If the attempt fails, the DLL will return an empty data table which
+ is interpreted as a login failure
+ </remarks>
+</member><member name="T:CRS_BLL.CaseReporting_Employee">
+	<summary>
+ Class to define the Employee object
+ </summary>
+	<remarks></remarks>
+</member><member name="M:CRS_BLL.CaseReporting_Report_List.Get_Standard_Reports(System.Int32)">
+	<summary>
+ Returns a dictionary containing a list of standard reports by ID
+ </summary>
+	<param name="int_Firm_ID">Firm ID to filter custom reports on</param>
+	<returns>Dictionary (ID, Name) of standard reports</returns>
+	<remarks></remarks>
+</member><member name="M:CRS_BLL.CaseReporting_Report_List.Get_Custom_Reports(System.Int32)">
+	<summary>
+ Returns a dictionary containing a list of custom reports by ID
+ </summary>
+	<param name="int_Firm_ID">Firm ID to filter custom reports on</param>
+	<returns>Dictionary (ID, Name) of standard reports</returns>
+	<remarks></remarks>
+</member><member name="M:CRS_BLL.CaseReporting_Report_List.GetReportLists(System.Int32)">
+	<summary>
+ Retrieves the lists of reports to be stored in local dictionaries
+ </summary>
+	<param name="int_Firm_ID">Firm ID to filter custom reports on</param>
+	<remarks></remarks>
+</member><member name="M:CRS_BLL.CaseReporting_Report_List.BuildReportList(System.Data.DataTable@)">
+	<summary>
+ Builds a dictionary based upon the data table provided
+ </summary>
+	<param name="dt_Table">Datatable containing the list of reports</param>
+	<returns>Dictionary (ID, Name) of reports based upon the contents of the datatable</returns>
+	<remarks></remarks>
+</member><member name="T:CRS_BLL.CaseReporting_Report_List">
+	<summary>
+ Class to support retrieving report lists
+ </summary>
+	<remarks></remarks>
+</member><member name="T:CRS_BLL.CaseReporting_Report_Builder">
+	<summary>
+ Class used to build a report from the data contained in the CaseReporting_Report object
+ </summary>
+	<remarks></remarks>
+</member><member name="T:CRS_BLL.CaseReporting_Report">
+	<summary>
+ Class to define the Report object
+ </summary>
+	<remarks></remarks>
+</member><member name="M:CRS_BLL.CRS_Referring_Attorney.Login(System.String,System.String)">
+	<summary>
+ This method attempts to retrieve the referring attorney information based upon the user supplied values
+ </summary>
+	<param name="str_Login_Name">User supplied email address</param>
+	<param name="str_Login_Password">User supplied password</param>
+	<remarks>
+ This method attempts to retrieve a data table containing the employee information from the DLL.  If successful, the DLL will
+ return a data table containing the requested information.  If the attempt fails, the DLL will return an empty data table which
+ is interpreted as a login failure
+ </remarks>
+</member><member name="T:CRS_BLL.CRS_Referring_Attorney">
+	<summary>
+ Class to define the Referring Attorney object
+ </summary>
+	<remarks></remarks>
+</member><member name="T:CRS_BLL.CaseReporting_Report_Layout.RowType">
+	<summary>
+ Defines the type of row
+ </summary>
+	<remarks></remarks>
+</member><member name="T:CRS_BLL.CaseReporting_Report_Layout">
+	<summary>
+ Class to define the report layout object
+ </summary>
+	<remarks></remarks>
+</member><member name="T:CRS_BLL.CaseReporting_Company">
+	<summary>
+ Defines the company entity
+ </summary>
+	<remarks></remarks>
+</member>
+</members>
+</doc>

@@ -1,0 +1,259 @@
+﻿<?xml version="1.0"?>
+<doc>
+<assembly>
+<name>
+CRS_DLL
+</name>
+</assembly>
+<members>
+<member name="P:CRS_DLL.My.Resources.Resources.ResourceManager">
+	<summary>
+  Returns the cached ResourceManager instance used by this class.
+</summary>
+</member><member name="P:CRS_DLL.My.Resources.Resources.Culture">
+	<summary>
+  Overrides the current thread's CurrentUICulture property for all
+  resource lookups using this strongly typed resource class.
+</summary>
+</member><member name="T:CRS_DLL.My.Resources.Resources">
+	<summary>
+  A strongly-typed resource class, for looking up localized strings, etc.
+</summary>
+</member><member name="M:CRS_DLL.Clients_Case_Reporting_Data.Login(System.String,System.String)">
+	<summary>
+ Login 
+ </summary>
+	<param name="str_Login_Name"></param>
+	<param name="str_Login_Password"></param>
+	<returns></returns>
+	<remarks></remarks>
+</member><member name="M:CRS_DLL.Clients_Case_Reporting_Data.Get_Client_Case_Reporting_Info(System.String,System.String,System.String,System.String,System.String)">
+	<summary>
+ Retrieves client case reporting information based upon the reporting, client id, law firm id, attorney id, client referral history law firm id
+ </summary>
+	<param name="str_Reporting"></param>
+	<param name="str_Client_ID"></param>
+	<param name="str_Law_Firm_ID"></param>
+	<param name="str_Attorney_ID"></param>
+	<param name="str_Client_Referral_History_Law_Firm_ID"></param>
+	<returns></returns>
+	<remarks></remarks>
+</member><member name="M:CRS_DLL.Clients_Case_Reporting_Data.Save_Client_Case_Reporting_Comments(System.String,System.String)">
+	<summary>
+ Saves client case reporting comments based upon the reporting ID
+ </summary>
+	<param name="str_Reporting_ID"></param>
+	<param name="str_Comments"></param>
+	<remarks></remarks>
+</member><member name="M:CRS_DLL.Contact_Data.Update_Contact_Via_Email_info(System.String,System.String)">
+	<summary>
+ Update contact information based upon the contact id
+ </summary>
+	<param name="str_Contact_ID"></param>
+	<param name="str_Contact_Via_Email"></param>
+	<returns></returns>
+	<remarks></remarks>
+</member><member name="M:CRS_DLL.Attorney_Data.Get_Attorney_Info(System.String)">
+	<summary>
+ Retrieves attorney case reporting information based upon the attorney id
+ </summary>
+	<param name="str_Attorney_ID"></param>
+	<returns></returns>
+	<remarks></remarks>
+</member><member name="M:CRS_DLL.LawFirm_City_Data.Get_LawFirm_City_Info(System.String)">
+	<summary>
+ Retrieves Law Firm City case reporting information based upon the lawfirm id
+ </summary>
+	<param name="str_LawFirm_ID"></param>
+	<returns></returns>
+	<remarks></remarks>
+</member><member name="M:CRS_DLL.LawFirm_City_Data.Get_LawFirm_City_Info(System.String,System.Int64)">
+	<summary>
+ Retrieves Law Firm City case reporting information based upon the lawfirm id and City id
+ </summary>
+	<param name="str_LawFirm_ID"></param>
+	<param name="lng_City_ID"></param>
+	<returns></returns>
+	<remarks></remarks>
+</member><member name="M:CRS_DLL.LawFirm_City_Data.Save_LawFirm_City_Info(System.String,System.Int64,System.Int64)">
+	<summary>
+ Saves Law Firm City case reporting information based upon the lawfirm id and City id
+ </summary>
+	<param name="str_LawFirm_ID"></param>
+	<param name="lng_City_ID"></param>
+	<param name="lng_Preferrence"></param>
+	<returns></returns>
+	<remarks></remarks>
+</member><member name="M:CRS_DLL.Employee_Data.Get_Employee_Info(System.String,System.String)">
+	<summary>
+ Retrieves employee information based upon the employee's email and password
+ </summary>
+	<param name="str_Login_Name"></param>
+	<param name="str_Login_Password"></param>
+	<returns></returns>
+	<remarks></remarks>
+</member><member name="T:CRS_DLL.Employee_Data">
+	<summary>
+ Class used to manage employee SQL data
+ </summary>
+	<remarks></remarks>
+</member><member name="M:CRS_DLL.Report_Data.Report_List(System.Int32)">
+	<summary>
+ Returns a dataset containing 2 tables reports, the first standard and the second custom
+ </summary>
+	<param name="int_Company_ID"></param>
+	<returns></returns>
+	<remarks></remarks>
+</member><member name="M:CRS_DLL.Report_Data.Report_Layout_Load(System.Int32,System.Int32)">
+	<summary>
+ Returns the report layout info
+ </summary>
+	<param name="int_Report_ID"></param>
+	<returns></returns>
+	<remarks></remarks>
+</member><member name="M:CRS_DLL.Report_Data.Report_Load(System.String)">
+	<summary>
+ Returns the individual report data
+ </summary>
+	<param name="str_Query"></param>
+	<returns></returns>
+	<remarks></remarks>
+</member><member name="M:CRS_DLL.Sql_Base.GetDataSet(System.String,System.Object[])">
+	<summary>
+ Returns a dataset based upon the stored procedure name and the parameter list provided
+ </summary>
+	<param name="str_Sproc_Name"></param>
+	<param name="object_Params">A paired list of parameters, each containing the name of the parameter and the parameter value</param>
+	<returns>The resulting dataset - no results will return an empty dataset</returns>
+	<remarks></remarks>
+</member><member name="M:CRS_DLL.Sql_Base.GetDataTable(System.String,System.Object[])">
+	<summary>
+ Returns a data table based upon the stored procedure name and the parameter list provided
+ </summary>
+	<param name="str_Sproc_Name"></param>
+	<param name="object_Params">A paired list of parameters, each containing the name of the parameter and the parameter value</param>
+	<returns>The resulting data table - no results will return an empty data table</returns>
+	<remarks></remarks>
+</member><member name="M:CRS_DLL.Sql_Base.GetDataTable(System.String)">
+	<summary>
+ Returns a data table based upon a query string
+ </summary>
+	<param name="str_Query"></param>
+	<returns></returns>
+	<remarks></remarks>
+</member><member name="M:CRS_DLL.Sql_Base.Execute_Scalar(System.String,System.Object[])">
+	<summary>
+ Returns a single object based upon the stored procedure name and the parameter list provided
+ </summary>
+	<param name="str_Sproc_Name"></param>
+	<param name="object_Params">A paired list of parameters, each containing the name of the parameter and the parameter value</param>
+	<returns>The resulting object - no results will return the object as nothing</returns>
+	<remarks></remarks>
+</member><member name="M:CRS_DLL.Sql_Base.Execute_Non_Query(System.String,System.Object[])">
+	<summary>
+ Executes a SQL non-query (such as an INSERT or UPDATE)
+ </summary>
+	<param name="str_Sproc_Name"></param>
+	<param name="object_Params">A paired list of parameters, each containing the name of the parameter and the parameter value</param>
+	<remarks></remarks>
+</member><member name="M:CRS_DLL.Sql_Base.Get_SQL_Connection">
+	<summary>
+ Establishes and opens a SQL connection
+ </summary>
+	<returns></returns>
+	<remarks></remarks>
+</member><member name="M:CRS_DLL.Sql_Base.Handle_Exception(System.Exception)">
+	<summary>
+ For debug purposes only, we use this as the exception handler until we determine a better way to do it
+ </summary>
+	<param name="ex">Exception that was thrown</param>
+	<remarks></remarks>
+</member><member name="M:CRS_DLL.Client_Intake_Question_And_Answer_Data.Get_Client_Intake_Question_And_Answer_Info(System.String)">
+	<summary>
+ Retrieves Client Intake Question And Answer email address case reporting information based upon the client id
+ </summary>
+	<param name="str_Client_ID"></param>
+	<returns></returns>
+	<remarks></remarks>
+</member><member name="M:CRS_DLL.Referring_Attorney_Data.Get_Referring_Attorney_Info(System.String,System.String)">
+	<summary>
+ Retrieves referring attorney information based upon the attorney information's full name and password
+ </summary>
+	<param name="str_Login_Name"></param>
+	<param name="str_Login_Password"></param>
+	<returns></returns>
+	<remarks></remarks>
+</member><member name="T:CRS_DLL.Referring_Attorney_Data">
+	<summary>
+ Class used to manage Referring Attorney SQL data
+ </summary>
+	<remarks></remarks>
+</member><member name="M:CRS_DLL.Type_Of_Case_And_Marketing_Fees_Data.Get_Type_Of_Case_And_Marketing_Fees_Info(System.String)">
+	<summary>
+ Retrieves type of case and marketing fees case reporting information based upon the attorney id
+ </summary>
+	<param name="str_Law_Firm_ID"></param>
+	<returns></returns>
+	<remarks></remarks>
+</member><member name="M:CRS_DLL.Preamble_Data.Get_Preamble_Info(System.String)">
+	<summary>
+ Retrieves preamble reporting information based upon the law firm id
+ </summary>
+	<param name="str_Law_Firm_ID"></param>
+	<returns></returns>
+	<remarks></remarks>
+</member><member name="M:CRS_DLL.Client_Data.Get_Client_Info(System.String)">
+	<summary>
+ Retrieves client case reporting information based upon the client id
+ </summary>
+	<param name="str_Client_ID"></param>
+	<returns></returns>
+	<remarks></remarks>
+</member><member name="M:CRS_DLL.Attorney_Email_Address_Data.Get_Attorney_Email_Address_Info(System.String)">
+	<summary>
+ Retrieves attorney email address case reporting information based upon the attorney id
+ </summary>
+	<param name="str_Attorney_ID"></param>
+	<returns></returns>
+	<remarks></remarks>
+</member><member name="M:CRS_DLL.Labels_Tooltips_Floaters_Text_Data.Get_Labels_Tooltips_Floaters_Text_Info(System.String)">
+	<summary>
+ Retrieves Get_Labels_Tooltips_Floaters_Text information based upon the Web Page
+ </summary>
+	<param name="str_Web_Page"></param>
+	<returns></returns>
+	<remarks></remarks>
+</member><member name="M:CRS_DLL.LawFirm_State_Data.Get_LawFirm_State_Info(System.String)">
+	<summary>
+ Retrieves Law Firm State case reporting information based upon the lawfirm id
+ </summary>
+	<param name="str_LawFirm_ID"></param>
+	<returns></returns>
+	<remarks></remarks>
+</member><member name="M:CRS_DLL.LawFirm_State_Data.Get_LawFirm_State_Info(System.String,System.Int64)">
+	<summary>
+ Retrieves Law Firm State case reporting information based upon the lawfirm id and state id
+ </summary>
+	<param name="str_LawFirm_ID"></param>
+	<param name="lng_State_ID"></param>
+	<returns></returns>
+	<remarks></remarks>
+</member><member name="M:CRS_DLL.LawFirm_State_Data.Save_LawFirm_State_Info(System.String,System.Int64,System.Int64)">
+	<summary>
+ Saves Law Firm State case reporting information based upon the lawfirm id and state id
+ </summary>
+	<param name="str_LawFirm_ID"></param>
+	<param name="lng_State_ID"></param>
+	<param name="lng_Admission"></param>
+	<returns></returns>
+	<remarks></remarks>
+</member><member name="M:CRS_DLL.State_Data.Get_State_Info(System.String)">
+	<summary>
+ Retrieves State case reporting information based upon the state id
+ </summary>
+	<param name="str_State_ID"></param>
+	<returns></returns>
+	<remarks></remarks>
+</member>
+</members>
+</doc>

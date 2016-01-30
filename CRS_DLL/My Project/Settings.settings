@@ -1,0 +1,27 @@
+﻿<?xml version='1.0' encoding='utf-8'?>
+<SettingsFile xmlns="http://schemas.microsoft.com/VisualStudio/2004/01/settings" CurrentProfile="(Default)" GeneratedClassNamespace="My" GeneratedClassName="MySettings" UseMySettingsClassName="true">
+  <Profiles />
+  <Settings>
+    <Setting Name="DBCONNECT_DEFAULT" Type="(Connection string)" Scope="Application">
+      <DesignTimeValue Profile="(Default)">&lt;?xml version="1.0" encoding="utf-16"?&gt;
+&lt;SerializableConnectionString xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema"&gt;
+  &lt;ConnectionString&gt;Data Source=174.123.34.152;Initial Catalog=Attorneys_and_Clients;User ID=bostonconvivium;Password=conigorredsign1234;timeout=90&lt;/ConnectionString&gt;
+&lt;/SerializableConnectionString&gt;</DesignTimeValue>
+      <Value Profile="(Default)">Data Source=174.123.34.152;Initial Catalog=Attorneys_and_Clients;User ID=bostonconvivium;Password=conigorredsign1234;timeout=90</Value>
+    </Setting>
+    <Setting Name="Attorneys_and_Clients_ConnectionString" Type="(Connection string)" Scope="Application">
+      <DesignTimeValue Profile="(Default)">&lt;?xml version="1.0" encoding="utf-16"?&gt;
+&lt;SerializableConnectionString xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema"&gt;
+  &lt;ConnectionString&gt;Data Source=174.123.34.152;Initial Catalog=Attorneys_and_Clients;User ID=bostonconvivium&lt;/ConnectionString&gt;
+&lt;/SerializableConnectionString&gt;</DesignTimeValue>
+      <Value Profile="(Default)">Data Source=174.123.34.152;Initial Catalog=Attorneys_and_Clients;User ID=bostonconvivium</Value>
+    </Setting>
+    <Setting Name="DBConnect_Test" Type="(Connection string)" Scope="Application">
+      <DesignTimeValue Profile="(Default)">&lt;?xml version="1.0" encoding="utf-16"?&gt;
+&lt;SerializableConnectionString xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema"&gt;
+  &lt;ConnectionString&gt;Data Source=174.123.34.152;Initial Catalog=Attorneys_and_Clients_Test;User ID=bostonconvivium;Password=conigorredsign1234;timeout=90&lt;/ConnectionString&gt;
+&lt;/SerializableConnectionString&gt;</DesignTimeValue>
+      <Value Profile="(Default)">Data Source=174.123.34.152;Initial Catalog=Attorneys_and_Clients_Test;User ID=bostonconvivium;Password=conigorredsign1234;timeout=90</Value>
+    </Setting>
+  </Settings>
+</SettingsFile>
